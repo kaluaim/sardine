@@ -64,7 +64,7 @@ header > .content > h2 {
   margin: 0;
   font-weight: normal;
   font-size: 0.9em;
-  color: #313030;
+  color: #696868;
 }
 
 
@@ -81,10 +81,34 @@ header > .content > h2 {
 }
 
 .wrapper > aside {
-  width: 30%;
+  width: 25%;
   float: left;
+  margin-top: 30px;
+}
+
+.wrapper > aside > h1 {
+  margin: 0;
+  font-size: 1.3em;
+}
+
+.wrapper > aside > ul {
+  list-style-type: none;
+  margin-top: 0;
+  padding: 0;
 }
 
 .wrapper > aside > footer {
+  color: #bbc7cc;
+font-size: 0.7em;
+text-align: justify;
+}
 
+
+/* articale */
+article > .header {
+
+}
+
+article > .content {
+  
 }
