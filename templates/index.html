@@ -6,7 +6,7 @@
 <article>
   <div class="header">
     <span class="date">{{ article.date|strftime('%d %B %Y') }}</span>
-    <h3><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }} {{ output_file }}</a></h3>
+    <h3><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h3>
   </div>
   <div class="content">
     {% if output_file is equalto 'index.html' %}
