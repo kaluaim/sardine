@@ -1,0 +1,15 @@
+html, body {
+  direction: rtl;
+}
+
+header > .content > .logo {
+  float: right;
+}
+
+.wrapper > main {
+  float: left;
+}
+
+.wrapper > aside {
+  float: right;
+}
