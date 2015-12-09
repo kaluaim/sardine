@@ -1,43 +1,45 @@
 {% if DEFAULT_PAGINATION %}
-<nav class="paginator">
+  <nav class="paginator">
 
-{% if articles_page.has_next() %}
+  {% if articles_page.has_next() %}
 
-{% if DEFAULT_LANG is equalto 'ar' %}
-<a href="{{ SITEURL }}/{{ page_name }}{{ articles_page.next_page_number() }}.html" class="older">تدوينات أقدم &larr;</a>
-{% else %}
-<a href="{{ SITEURL }}/{{ page_name }}{{ articles_page.next_page_number() }}.html" class="older">&larr; Older Posts</a>
-{% endif %}
+    {% if DEFAULT_LANG is equalto 'ar' %}
+    <a href="{{ SITEURL }}/{{ page_name }}{{ articles_page.next_page_number() }}.html" class="older">تدوينات أقدم &larr;</a>
+    {% else %}
+    <a href="{{ SITEURL }}/{{ page_name }}{{ articles_page.next_page_number() }}.html" class="older">&larr; Older Posts</a>
+    {% endif %}
 
-{% endif %}
-
-
-{% if DEFAULT_LANG is equalto 'ar' %}
-<span class="detals">صفحة {{ articles_page.number }} من {{ articles_page.paginator.num_pages }}</span>
-{% else %}
-<span class="detals">Page {{ articles_page.number }} of {{ articles_page.paginator.num_pages }}</span>
-{% endif %}
+  {% endif %}
 
 
-{% if articles_page.has_previous() %}
-{% if articles_page.previous_page_number() == 1 %}
+  {% if DEFAULT_LANG is equalto 'ar' %}
+  <span class="detals">صفحة {{ articles_page.number }} من {{ articles_page.paginator.num_pages }}</span>
+  {% else %}
+  <span class="detals">Page {{ articles_page.number }} of {{ articles_page.paginator.num_pages }}</span>
+  {% endif %}
 
-{% if DEFAULT_LANG is equalto 'ar' %}
-<a href="{{ SITEURL }}/{{ page_name }}.html" class="newer">&rarr; تدوينات أحدث</a>
-{% else %}
-<a href="{{ SITEURL }}/{{ page_name }}.html" class="newer">Newer Posts &rarr;</a>
-{% endif %}
 
-{% else %}
+  {% if articles_page.has_previous() %}
 
-{% if DEFAULT_LANG is equalto 'ar' %}
-<a href="{{ SITEURL }}/{{ page_name }}{{ articles_page.previous_page_number() }}.html" class="newer">&rarr; تدوينات أحدث</a>
-{% else %}
-<a href="{{ SITEURL }}/{{ page_name }}{{ articles_page.previous_page_number() }}.html" class="newer">Newer Posts &rarr;</a>
-{% endif %}
+    {% if articles_page.previous_page_number() == 1 %}
 
-{% endif %}
-{% endif %}
+      {% if DEFAULT_LANG is equalto 'ar' %}
+      <a href="{{ SITEURL }}/{{ page_name }}.html" class="newer">&rarr; تدوينات أحدث</a>
+      {% else %}
+      <a href="{{ SITEURL }}/{{ page_name }}.html" class="newer">Newer Posts &rarr;</a>
+      {% endif %}
 
-</nav>
+    {% else %}
+
+      {% if DEFAULT_LANG is equalto 'ar' %}
+      <a href="{{ SITEURL }}/{{ page_name }}{{ articles_page.previous_page_number() }}.html" class="newer">&rarr; تدوينات أحدث</a>
+      {% else %}
+      <a href="{{ SITEURL }}/{{ page_name }}{{ articles_page.previous_page_number() }}.html" class="newer">Newer Posts &rarr;</a>
+      {% endif %}
+
+    {% endif %}
+
+  {% endif %}
+
+  </nav>
 {% endif %}
