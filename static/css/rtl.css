@@ -1,5 +1,8 @@
 html, body {
   direction: rtl;
+  font-family: 'XBRiyazRegular';
+   font-weight: normal;
+   font-style: normal; 
 }
 
 header > .content > .logo {
