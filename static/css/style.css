@@ -73,7 +73,7 @@ header > .content > h2 {
   width: 90%;
   max-width: 1000px;
   margin: 0 auto;
-  padding-bottom: 50px;
+  padding-bottom: 3em;
 }
 
 .clearfix::after {
@@ -157,7 +157,7 @@ article > .content {
   text-align: center;
   font-size: 0.8em;
   color: #696868;
-  margin: 5em auto;
+  margin: 5em auto 0 auto;
   position: relative;
 }
 
