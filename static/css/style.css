@@ -73,6 +73,15 @@ header > .content > h2 {
   width: 90%;
   max-width: 1000px;
   margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.clearfix::after {
+  content: " ";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
 }
 
 .wrapper > main {
@@ -84,6 +93,8 @@ header > .content > h2 {
   width: 25%;
   float: left;
   margin-top: 30px;
+  font-size: 0.9em;
+  line-height: 1.6em;
 }
 
 .wrapper > aside > h1 {
@@ -97,18 +108,75 @@ header > .content > h2 {
   padding: 0;
 }
 
+.wrapper > aside > .msg {
+  color: #696868;
+  font-size: 0.8em;
+  text-align: justify;
+  margin: 40px 0 0 0;
+  line-height: 1.4em;
+}
+
 .wrapper > aside > footer {
   color: #bbc7cc;
-font-size: 0.7em;
-text-align: justify;
+  font-size: 0.7em;
+  text-align: justify;
+  margin: 40px 0 0 0;
+  line-height: 1.4em;
 }
 
 
 /* articale */
+main > article {
+    padding: 1.2em 0 0 0;
+}
+
 article > .header {
 
 }
 
+article > .header > .date {
+  font-size: 0.8em;
+  color: #9eabb3;
+}
+
+article > .header > h2 {
+  margin: 0;
+}
+
+article > .header > h2 > a {
+  text-decoration: none;
+    color: #222222;
+}
+
 article > .content {
-  
+
+}
+
+/* paginator */
+.paginator {
+  text-align: center;
+  font-size: 0.8em;
+  color: #696868;
+  margin: 5em auto;
+  position: relative;
+}
+
+.paginator a {
+  color: #313131;
+}
+
+.paginator > .detals {
+
+}
+
+.paginator > .older {
+  left: 0;
+  position: absolute;
+  display: inline-block;
+}
+
+.paginator > .newer {
+  right: 0;
+  position: absolute;
+  display: inline-block;
 }
