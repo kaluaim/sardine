@@ -43,8 +43,8 @@
     </div>
   </header>
 
-  <div class="wrapper">
-
+  <div class="wrapper clearfix">
+    <div class="clearfix"></div>
     <main>
       {% block content %}
       {% endblock %}
@@ -54,8 +54,8 @@
 
       {% if DISPLAY_PAGES_ON_MENU %}
       {% if pages %}
-      {% if FS_SIDE_TITLE_PAGES %}
-      <h1>{{ FS_SIDE_TITLE_PAGES }}</h1>
+      {% if P_SIDE_TITLE_PAGES %}
+      <h1>{{ P_SIDE_TITLE_PAGES }}</h1>
       {% endif %}
       <ul>
         {% for page in pages %}
@@ -66,8 +66,8 @@
       {% endif %}
 
       {% if MENUITEM %}
-      {% if FS_SIDE_TITLE_MENUITEM %}
-      <h1>{{ FS_SIDE_TITLE_MENUITEM }}</h1>
+      {% if P_SIDE_TITLE_MENUITEM %}
+      <h1>{{ P_SIDE_TITLE_MENUITEM }}</h1>
       {% endif %}
       <ul>
         {% for title, link in MENUITEMS %}
@@ -77,8 +77,8 @@
       {% endif %}
 
       {% if LINKS %}
-      {% if FS_SIDE_TITLE_LINKS %}
-      <h1>{{ FS_SIDE_TITLE_LINKS }}</h1>
+      {% if P_SIDE_TITLE_LINKS %}
+      <h1>{{ P_SIDE_TITLE_LINKS }}</h1>
       {% endif %}
       <ul>
         {% for name, link in LINKS %}
@@ -88,8 +88,8 @@
       {% endif %}
 
       {% if SOCIAL %}
-      {% if FS_SIDE_TITLE_SOCIAL %}
-      <h1>{{ FS_SIDE_TITLE_SOCIAL }}</h1>
+      {% if P_SIDE_TITLE_SOCIAL %}
+      <h1>{{ P_SIDE_TITLE_SOCIAL }}</h1>
       {% endif %}
       <ul>
         {% for name, link in SOCIAL %}
@@ -97,6 +97,10 @@
         {% endfor %}
       </ul>
       {% endif %}
+
+      <p class="msg">
+        {{ P_SIDE_MSG }}
+      </p>
 
       <footer class="footer">
         © Giulio Fidente. Built using Pelican. Theme by Giulio Fidente on github. Member of the Internet Defense League.
