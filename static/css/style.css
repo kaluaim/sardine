@@ -34,7 +34,7 @@ header > .content {
 header > .content > .logo {
   text-decoration: none;
   float: left;
-  margin: -15px 10px 0 0;
+  margin: --0.7em 0.7em 0 0;
 }
 
 header > .content > .logo > img {
