@@ -124,8 +124,8 @@ header > .content > h2 {
   line-height: 1.4em;
 }
 
-.wrapper > aside > footer > span {
-
+.wrapper > aside > footer a {
+  color: #bbc7cc;
 }
 
 .wrapper > aside > footer img {
