@@ -124,6 +124,14 @@ header > .content > h2 {
   line-height: 1.4em;
 }
 
+.wrapper > aside > footer > span {
+
+}
+
+.wrapper > aside > footer img {
+  height: 1.1em;
+  width: 1.1em;
+}
 
 /* articale */
 main > article {
