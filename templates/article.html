@@ -7,8 +7,9 @@
 
 {% block content %}
 <article>
-  <div class="article_title">
-    <h3><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h3>
+  <div class="header">
+    <span class="date">{{ article.date|strftime('%d %B %Y') }}</span>
+    <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }} {{ SITEURL }}</a></h2>
   </div>
   <div class="article_text">
     {{ article.content }}
@@ -31,7 +32,7 @@
         var disqus_identifier = "{{ article.url }}";
         (function() {
              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-             dsq.src = 'http://{{ DISQUS_SITENAME }}.disqus.com/embed.js';
+             dsq.src = 'http://{{ P_DISQUS_SITENAME }}.disqus.com/embed.js';
              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
          })();
     </script>
