@@ -1,4 +1,13 @@
-html, body {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:lang(en) 	{
+  font-family: "Open Sans", serif;
+}
+
+body {
   height: 100%;
   max-height: 100%;
   margin: 0;
@@ -125,7 +134,11 @@ header > .content > h2 {
 }
 
 .wrapper > aside > footer a {
-  color: #bbc7cc;
+  color: #97A2A7;
+}
+
+.wrapper > aside > footer a:hover {
+  color: #222222;
 }
 
 .wrapper > aside > footer img {

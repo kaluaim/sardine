@@ -1,8 +1,12 @@
+:lang(ar) 	{
+  font-family: "KacstOneRegular", sans-serif;
+}
+
 html, body {
   direction: rtl;
-  font-family: 'XBRiyazRegular';
    font-weight: normal;
-   font-style: normal; 
+   font-family: "KacstOneRegular", sans-serif;
+   font-style: normal;
 }
 
 header > .content > .logo {
