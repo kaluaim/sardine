@@ -5,7 +5,7 @@
 {% for article in articles_page.object_list %}
 <article>
   <div class="header">
-    <span class="date">{{ article.date|strftime('%d/%m/%Y') }}</span>
+    <span class="date" lang="en">{{ article.locale_date }}</span>
     <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }} {{ SITEURL }}</a></h2>
   </div>
   <div class="content">

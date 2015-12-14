@@ -6,7 +6,6 @@
 
   {% if SITE_DIRECTION is equalto 'rtl' %}
   <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/rtl.css">
-  <link rel="stylesheet" href="https://fontlibrary.org/face/xb-riyaz" type="text/css"/>
   <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/kacstone" type="text/css"/>
   {% endif %}
 
@@ -41,7 +40,7 @@
     <div class="content">
       <a href="{{ SITEURL }}/" class="logo"><img src="{{ SITEURL }}/theme/images/logo.jpeg" alt="{{ SITENAME }}"></a>
       <h1 class="title"><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
-      <h2 class="sub-title">{{ TAGLINE }}</h2>
+      <h2 class="sub-title">{{ P_TAGLINE }}</h2>
     </div>
   </header>
 
@@ -99,6 +98,11 @@
         {% endfor %}
       </ul>
       {% endif %}
+
+      <ul>
+        <li><a href="{{ FEEDBURNER_URL }}" type="application/rss+xml" rel="alternate">rss feed</a></li>
+      </ul>
+
 
       <p class="msg">
         {{ P_SIDE_MSG }}
