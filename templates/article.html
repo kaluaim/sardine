@@ -6,12 +6,12 @@
 {% block title %}&ndash; {{ article.title }}{% endblock %}
 
 {% block content %}
-<article>
+<article class="margin">
   <div class="header">
     <span class="date" lang="en">{{ article.locale_date }}</span>
     <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }} {{ SITEURL }}</a></h2>
   </div>
-  <div class="article_text">
+  <div class="content">
     {{ article.content }}
   </div>
   <div class="article_meta">
