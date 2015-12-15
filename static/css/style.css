@@ -55,7 +55,7 @@ header > .content > .logo > img {
 
 header > .content > h1 {
   margin: 0;
-  font-weight: bold;
+  font-weight: normal;
   margin-bottom: -5px;
   font-size: 1.8em;
 }
