@@ -4,7 +4,7 @@
 <head>
   <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/style.css">
 
-  {% if SITE_DIRECTION is equalto 'rtl' %}
+  {% if SRDN_SITE_DIRECTION is equalto 'rtl' %}
   <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/rtl.css">
   <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/kacstone" type="text/css"/>
   {% endif %}
@@ -40,7 +40,7 @@
     <div class="content">
       <a href="{{ SITEURL }}/" class="logo"><img src="{{ SITEURL }}/theme/images/logo.png" alt="{{ SITENAME }}"></a>
       <h1 class="title"><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
-      <h2 class="sub-title">{{ P_TAGLINE }}</h2>
+      <h2 class="sub-title">{{ SRDN_TAGLINE }}</h2>
     </div>
   </header>
 
@@ -55,8 +55,8 @@
 
       {% if DISPLAY_PAGES_ON_MENU %}
       {% if pages %}
-      {% if P_SIDE_TITLE_PAGES %}
-      <h1>{{ P_SIDE_TITLE_PAGES }}</h1>
+      {% if SRDN_SIDE_TITLE_PAGES %}
+      <h1>{{ SRDN_SIDE_TITLE_PAGES }}</h1>
       {% endif %}
       <ul>
         {% for page in pages %}
@@ -67,8 +67,8 @@
       {% endif %}
 
       {% if MENUITEM %}
-      {% if P_SIDE_TITLE_MENUITEM %}
-      <h1>{{ P_SIDE_TITLE_MENUITEM }}</h1>
+      {% if SRDN_SIDE_TITLE_MENUITEM %}
+      <h1>{{ SRDN_SIDE_TITLE_MENUITEM }}</h1>
       {% endif %}
       <ul>
         {% for title, link in MENUITEMS %}
@@ -78,8 +78,8 @@
       {% endif %}
 
       {% if LINKS %}
-      {% if P_SIDE_TITLE_LINKS %}
-      <h1>{{ P_SIDE_TITLE_LINKS }}</h1>
+      {% if SRDN_SIDE_TITLE_LINKS %}
+      <h1>{{ SRDN_SIDE_TITLE_LINKS }}</h1>
       {% endif %}
       <ul>
         {% for name, link in LINKS %}
@@ -89,8 +89,8 @@
       {% endif %}
 
       {% if SOCIAL %}
-      {% if P_SIDE_TITLE_SOCIAL %}
-      <h1>{{ P_SIDE_TITLE_SOCIAL }}</h1>
+      {% if SRDN_SIDE_TITLE_SOCIAL %}
+      <h1>{{ SRDN_SIDE_TITLE_SOCIAL }}</h1>
       {% endif %}
       <ul>
         {% for name, link in SOCIAL %}
@@ -105,7 +105,7 @@
 
 
       <p class="msg">
-        {{ P_SIDE_MSG }}
+        {{ SRDN_SIDE_MSG }}
       </p>
 
       <footer class="footer">
