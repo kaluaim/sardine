@@ -52,7 +52,7 @@ header > .content {
 header > .content > .logo {
   text-decoration: none;
   float: left;
-  margin: -0.7em 0.7em 0 0;
+  margin: -2em 0.7em 0 0;
 }
 
 header > .content > .logo > img {
@@ -116,19 +116,21 @@ header > .content > h2 {
   width: 25%;
   float: left;
   margin-top: 30px;
-  font-size: 0.9em;
+  font-size: 0.8em;
   line-height: 1.6em;
 }
 
 .wrapper > aside > h1 {
   margin: 0;
   font-size: 1.3em;
+  margin-bottom: 0.2em;
 }
 
 .wrapper > aside > ul {
   list-style-type: none;
   margin-top: 0;
   padding: 0;
+  margin-bottom: 2em;
 }
 
 .wrapper > aside > .msg {
@@ -180,7 +182,7 @@ article > .header > .date {
 }
 
 article > .header > h2 {
-  margin: -0.3em 0 0 0;
+  margin: -0.2em 0 0 0;
   font-size: 2.1em;
 }
 
