@@ -12,6 +12,8 @@ TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = u'en'
 THEME = '../theme'
+DEFAULT_DATE_FORMAT = '%d / %m / %Y'
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -22,14 +24,23 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+         ('Jinja2', 'http://jinja.pocoo.org/'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('twitter', '#'),
+          ('facebook', '#'),)
 
 DEFAULT_PAGINATION = 100
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+
+# Sardine configurations
+SRDN_SITE_DIRECTION = 'ltr'
+SRDN_TAGLINE = 'Just a nother minimal Pelican theme'
+SRDN_SIDE_TITLE_PAGES = 'Pages'
+SRDN_SIDE_TITLE_MENUITEM = 'Items'
+SRDN_SIDE_TITLE_LINKS = 'Links'
+SRDN_SIDE_TITLE_SOCIAL = 'Social'
+SRDN_SIDE_MSG = 'This is a msg area, you can use it whatever you want.'
