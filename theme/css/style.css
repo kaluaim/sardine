@@ -39,7 +39,7 @@ table {
 }
 /* header */
 header {
-  margin: 10px 0 20px 0;
+
 }
 
 header > .content {
@@ -72,6 +72,7 @@ header > .content > h1 {
 header > .content > h1 > a {
   text-decoration: none;
   color: #313131;
+  font-weight: bold;
 }
 
 header > .content > h1 > a:hover {
@@ -105,7 +106,7 @@ header > .content > h2 {
 .wrapper > main {
   width: 70%;
   float: right;
-  margin-top: -2em;
+  margin-top: -4.5em;
 }
 
 .wrapper > main  * {
@@ -115,7 +116,6 @@ header > .content > h2 {
 .wrapper > aside {
   width: 25%;
   float: left;
-  margin-top: 30px;
   font-size: 0.8em;
   line-height: 1.6em;
 }
@@ -130,23 +130,22 @@ header > .content > h2 {
   list-style-type: none;
   margin-top: 0;
   padding: 0;
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
 }
 
 .wrapper > aside > .msg {
   color: #696868;
-  font-size: 0.8em;
+  font-size: 0.9em;
   text-align: justify;
-  margin: 40px 0 0 0;
   line-height: 1.4em;
 }
 
 .wrapper > aside > footer {
   color: #bbc7cc;
-  font-size: 0.7em;
+  font-size: 0.8em;
   text-align: justify;
-  margin: 40px 0 0 0;
-  line-height: 1.5em;
+  margin-top: 2em;
+  line-height: 1.6em;
 }
 
 .wrapper > aside > footer a {
@@ -184,6 +183,9 @@ article > .header > .date {
 article > .header > h2 {
   margin: -0.2em 0 0 0;
   font-size: 2.1em;
+  line-height: 1.2em;
+  letter-spacing: -1px;
+  text-indent: -2px;
 }
 
 article > .header > h2 > a {
