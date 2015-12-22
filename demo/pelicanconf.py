@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'sardine'
+AUTHOR = u'kaluaim'
 SITENAME = u'Sardine'
 SITEURL = 'http://kaluaim.github.com/sardine'
 
@@ -38,9 +38,10 @@ DEFAULT_PAGINATION = 100
 
 # Sardine configurations
 SRDN_SITE_DIRECTION = 'ltr'
-SRDN_TAGLINE = 'Just a nother minimal Pelican theme'
+SRDN_TAGLINE = 'just a nother minimal Pelican theme'
 SRDN_SIDE_TITLE_PAGES = 'Pages'
 SRDN_SIDE_TITLE_MENUITEM = 'Items'
 SRDN_SIDE_TITLE_LINKS = 'Links'
 SRDN_SIDE_TITLE_SOCIAL = 'Social'
 SRDN_SIDE_MSG = 'This is a msg area, you can use it whatever you want.'
+SRDN_FOOTER_CR_YEAR = '2016'
