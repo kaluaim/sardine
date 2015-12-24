@@ -18,6 +18,7 @@ body {
   color: #313131;
 }
 
+/* HTML Tags */
 a {
   color: #57a3e8;
   text-decoration: none;
@@ -35,7 +36,33 @@ img {
 
 table {
   max-width: 100%;
-      margin: 1em 0 1em 0;
+  margin: 1em 0 1em 0;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 5px solid black;
+  padding: 0.3em;
+}
+
+blockquote {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 3em;
+    margin-right: 3em;
+    background: #F1F5F7;
+    border-left: solid 0.2em #20ABEA;
+    padding: 1em;
+}
+
+dd {
+    display: block;
+    margin-left: 2em;
+}
+
+dt {
+    display: block;
 }
 /* header */
 header {
