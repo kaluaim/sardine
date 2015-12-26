@@ -75,6 +75,25 @@ pre {
   color: #cccccc;
 }
 
+p {
+  margin: 1em 0;
+}
+
+ul {
+  margin: 0.5em 0 0.5em 1.5em;
+}
+
+ol {
+  margin: 0.5em 0 0.5em 1.5em
+}
+
+li > ul {
+  margin: 0 0 0 1.5em;
+}
+
+li > ol {
+  margin: 0 0 0 1.5em;
+}
 /* header */
 header {
 
