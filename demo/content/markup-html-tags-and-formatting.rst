@@ -10,22 +10,22 @@ Markup: HTML Tags and Formatting
 Headings
 --------
 
-Header one
-==========
 
-Header two
+Header one
 ----------
 
+Header two
+^^^^^^^^^^
+
 Header three
-------------
+~~~~~~~~~~~~
 
 Header four
------------
++++++++++++
 
 Header five
------------
+===========
 
-Header six
 
 
 Blockquotes
