@@ -7,8 +7,8 @@ Media: Twitter Embeds
 :slug: media-twitter-embeds
 :status: published
 
-https://twitter.com/nacin/status/319508408669708289
 
-This post tests WordPress' `Twitter
-Embeds <http://en.support.wordpress.com/twitter/twitter-embeds/>`__
-feature.
+
+This post tests Pelican embed tweet feature.
+
+@username/codinghorror/616377394253795328

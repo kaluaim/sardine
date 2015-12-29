@@ -7,7 +7,7 @@ SITENAME = u'Sardine'
 SITEURL = 'http://kaluaim.github.com/sardine'
 
 PATH = 'content'
-
+PLUGINS = ['pelican.plugins.embed_tweet']
 TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = u'en'
