@@ -109,12 +109,11 @@ header > .content {
 header > .content > .logo {
   text-decoration: none;
   float: left;
-  margin: -2em 0.7em 0 0;
+  margin: -1.8em 0.7em 0 0;
 }
 
 header > .content > .logo > img {
   height: 100px;
-  width: 100px;
   display: block;
   border-radius: 15px;
 }
