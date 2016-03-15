@@ -38,7 +38,7 @@
 
   <header>
     <div class="content">
-      <a href="{{ SITEURL }}/" class="logo"><img src="{{ SITEURL }}/theme/images/logo.png" alt="{{ SITENAME }}"></a>
+      <a href="{{ SITEURL }}/" class="logo"><img src="{{ SITEURL }}/theme/images/{{ SRDN_SITE_LOGO }}" alt="{{ SITENAME }}"></a>
       <h1 class="title"><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
       <h2 class="sub-title">{{ SRDN_TAGLINE }}</h2>
     </div>
@@ -93,14 +93,15 @@
       <h1>{{ SRDN_SIDE_TITLE_SOCIAL }}</h1>
       {% endif %}
       <ul>
-        {% for name, link in SOCIAL %}
-        <li><a href="{{ link }}" target="_blank">{{ name }}</a></li>
+        {% for name, link, icon in SOCIAL %}
+        <li><a href="{{ link }}" target="_blank"><i class="{{ icon }}"></i> {{ name }}</a></li>
         {% endfor %}
       </ul>
       {% endif %}
 
       <ul>
-        <li><a href="{{ FEEDBURNER_URL }}" type="application/rss+xml" rel="alternate">rss feed</a></li>
+        <li><a href="{{ FEEDBURNER_URL }}" type="application/rss+xml" rel="alternate"><i class="fa fa-rss"></i> {{ SRDN_RSS_TITLE }}</a></li>
+        <li><a href="{{ FEEDBURNER_URL }}" type="application/rss+xml" rel="alternate"><i class="fa fa-envelope"></i> {{ SRDN_EMAIL_TITLE }}</a></li>
       </ul>
 
 
@@ -109,9 +110,10 @@
       </p>
 
       <footer class="footer">
-        <span>Copyright {{ AUTHOR }} © {{ SRDN_FOOTER_CR_YEAR }}</span>
+        {% for line in SRDN_FOOTER_LINES %}
+        {{ line }}
         <br/>
-        <span>Powred by <a href="http://blog.getpelican.com/" lang="en">Pelican</a>, using <a href="https://github.com/kaluaim/sardine" lang="en">Sardine</a></span>
+        {% endfor %}
       </footer>
     </aside>
 
