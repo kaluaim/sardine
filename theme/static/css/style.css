@@ -49,8 +49,13 @@ blockquote {
     display: block;
     margin-top: 1em;
     margin-bottom: 1em;
+<<<<<<< HEAD
     margin-left: 1em;
     margin-right: 1em;
+=======
+    margin-left: 3em;
+    margin-right: 3em;
+>>>>>>> bb27186b69077da724b9b8e5a1a6ac9462ab87ef
     background: #F1F5F7;
     border-left: solid 0.2em #20ABEA;
     padding: 1em;
@@ -73,8 +78,11 @@ pre {
   overflow-x: scroll;
   background: #444444;
   color: #cccccc;
+<<<<<<< HEAD
   padding: 1em;
   direction: ltr;
+=======
+>>>>>>> bb27186b69077da724b9b8e5a1a6ac9462ab87ef
 }
 
 p {
@@ -96,7 +104,10 @@ li > ul {
 li > ol {
   margin: 0 0 0 1.5em;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> bb27186b69077da724b9b8e5a1a6ac9462ab87ef
 /* header */
 header {
 
@@ -142,7 +153,11 @@ header > .content > h2 {
   margin: 0;
   font-weight: normal;
   font-size: 0.9em;
+<<<<<<< HEAD
   color: #A0ADB5;
+=======
+  color: #313131;
+>>>>>>> bb27186b69077da724b9b8e5a1a6ac9462ab87ef
 }
 
 
@@ -241,7 +256,11 @@ article > .header > .date {
 
 article > .header > h2 {
   font-size: 2.1em;
+<<<<<<< HEAD
   line-height: 0.7em;
+=======
+  line-height: 1.2em;
+>>>>>>> bb27186b69077da724b9b8e5a1a6ac9462ab87ef
   letter-spacing: -1px;
   text-indent: -2px;
 }
@@ -255,6 +274,7 @@ article > .content {
   margin-top: 1.5em;
 }
 
+<<<<<<< HEAD
 .article_meta {
   font-size: 0.7em;
 }
@@ -264,6 +284,8 @@ article > .content {
     height: 480px;
 }
 
+=======
+>>>>>>> bb27186b69077da724b9b8e5a1a6ac9462ab87ef
 /* paginator */
 .paginator {
   text-align: center;
