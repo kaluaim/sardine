@@ -100,8 +100,12 @@
       {% endif %}
 
       <ul>
-        <li><a href="{{ FEEDBURNER_URL }}" type="application/rss+xml" rel="alternate"><i class="fa fa-rss"></i> {{ SRDN_RSS_TITLE }}</a></li>
-        <li><a href="{{ FEEDBURNER_URL }}" type="application/rss+xml" rel="alternate"><i class="fa fa-envelope"></i> {{ SRDN_EMAIL_TITLE }}</a></li>
+        {% if SRDN_RSS_TITLE %}
+        <li><a href="{{ SRDN_RSS_URL }}" type="application/rss+xml" rel="alternate"><i class="fa fa-rss"></i> {{ SRDN_RSS_TITLE }}</a></li>
+        {% endif %}
+        {% if SRDN_EMAIL_TITLE %}
+        <li><a href="{{ SRDN_EMAIL_URL }}" type="application/rss+xml" rel="alternate"><i class="fa fa-envelope"></i> {{ SRDN_EMAIL_TITLE }}</a></li>
+        {% endif%}
       </ul>
 
 

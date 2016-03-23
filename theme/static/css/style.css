@@ -259,6 +259,11 @@ article > .content {
   font-size: 0.7em;
 }
 
+.youtube > iframe {
+    width: 100%;
+    height: 480px;
+}
+
 /* paginator */
 .paginator {
   text-align: center;
