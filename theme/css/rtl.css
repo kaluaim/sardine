@@ -11,7 +11,7 @@ html, body {
 
 header > .content > .logo {
   float: right;
-  margin: -0.7em 0 0 0.7em;
+  margin: -1.4em 0 0 0.7em;
 }
 
 header > .content > h1 {
@@ -32,4 +32,9 @@ header > .content > h2 {
 
 .wrapper > aside {
   float: right;
+}
+
+blockquote {
+    border-left: solid 0;
+    border-right: solid 0.2em #20ABEA;
 }

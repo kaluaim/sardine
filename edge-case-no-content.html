@@ -27,7 +27,7 @@
 
   <header>
     <div class="content">
-      <a href="./" class="logo"><img src="./theme/images/logo.png" alt="Sardine"></a>
+      <a href="./" class="logo"><img src="./theme/images/sardine.png" alt="Sardine"></a>
       <h1 class="title"><a href="./">Sardine</a></h1>
       <h2 class="sub-title">just a nother minimal Pelican theme</h2>
     </div>
@@ -45,12 +45,22 @@
     
   </div>
   <div class="article_meta">
-    <p>Posted on: 06 / 08 / 2009</p>
     <p>Category: <a href="./category/edge-case.html">Edge Case</a>
  &ndash; Tags:
       <a href="./tag/content.html">content</a>,      <a href="./tag/edge-case.html">edge case</a>,      <a href="./tag/layout.html">layout</a>    </p>
   </div>
 
+  <div id="article_comments">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_identifier = "edge-case-no-content.html";
+        (function() {
+             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+             dsq.src = 'http://kaluaim.disqus.com/embed.js';
+             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+         })();
+    </script>
+  </div>
 
 </article>
     </main>
@@ -78,12 +88,14 @@
 
       <h1>Social</h1>
       <ul>
-        <li><a href="#" target="_blank">twitter</a></li>
-        <li><a href="#" target="_blank">facebook</a></li>
+        <li><a href="#" target="_blank"><i class="fa fa-twitter"></i> twitter</a></li>
+        <li><a href="#" target="_blank"><i class="fa fa-facebook"></i> facebook</a></li>
+        <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i> linkedin</a></li>
       </ul>
 
       <ul>
-        <li><a href="" type="application/rss+xml" rel="alternate">rss feed</a></li>
+        <li><a href="#" type="application/rss+xml" rel="alternate"><i class="fa fa-rss"></i> Subscribe in a reader</a></li>
+        <li><a href="#" type="application/rss+xml" rel="alternate"><i class="fa fa-envelope"></i> Subscribe via email</a></li>
       </ul>
 
 
@@ -94,7 +106,8 @@
       <footer class="footer">
         <span>Copyright kaluaim © 2016</span>
         <br/>
-        <span>Powred by <a href="http://blog.getpelican.com/" lang="en">Pelican</a>, using <a href="https://github.com/kaluaim/sardine" lang="en">Sardine</a></span>
+        <span>Powred by <a href="http://blog.getpelican.com/">Pelican</a>, using <a href="https://github.com/kaluaim/sardine">Sardine</a></span>
+        <br/>
       </footer>
     </aside>
 
