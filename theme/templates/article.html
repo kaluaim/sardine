@@ -16,7 +16,8 @@
   </div>
   <div class="article_meta">
     <p>{{ SRDN_CATEGORY_TEXT }} <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
-      {% if article.tags %} &ndash; Tags:
+      {% if article.tags %}
+      &ndash; {{ SRDN_TAG_TEXT }}
       {% for tag in article.tags %}
       <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>{% if not loop.last %},{% endif %}
       {% endfor %}

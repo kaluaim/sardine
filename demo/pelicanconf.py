@@ -67,7 +67,8 @@ SRDN_EMAIL_TITLE = 'Subscribe via email'
 SRDN_EMAIL_URL = '#'
 
 SRDN_CATEGORY_TEXT = 'Category:'
-SRDN_DISQUS_SITENAME = 'kaluaim'
+SRDN_TAG_TEXT = 'Tag:'
+SRDN_DISQUS_SITENAME = 'sardine'
 
 # HTML footer lines, after each line <br/> will be added.
 SRDN_FOOTER_LINES = (('<span>Copyright kaluaim © 2016</span>'),
