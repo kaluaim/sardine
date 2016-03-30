@@ -221,6 +221,18 @@ header > .content > h2 {
   width: 1.1em;
 }
 
+@media only screen and (max-width: 880px) {
+  .wrapper > main {
+    width: auto;
+    float: none;
+  }
+
+  .wrapper > aside {
+    width: auto;
+    float: none;
+  }
+}
+
 /* articale */
 main > article {
   margin: 1em 0 0 0;
