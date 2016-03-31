@@ -34,6 +34,16 @@ header > .content > h2 {
   float: right;
 }
 
+@media only screen and (max-width: 880px) {
+  .wrapper > main {
+    float: none;
+  }
+
+  .wrapper > aside {
+    float: none;
+  }
+}
+
 blockquote {
     border-left: solid 0;
     border-right: solid 0.2em #20ABEA;

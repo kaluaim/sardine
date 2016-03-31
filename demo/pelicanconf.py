@@ -11,11 +11,17 @@ SITEURL = 'http://kaluaim.github.com/sardine'
 PATH = 'content'
 TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = u'en'
-STATIC_PATHS = ['uploads']
+STATIC_PATHS = ['uploads',
+                'extra/robots.txt',
+                'extra/favicon.ico']
+EXTRA_PATH_METADATA = {
+    'extra/robots.txt': {'path': 'robots.txt'},
+    'extra/favicon.ico': {'path': 'favicon.ico'}
+}
 DEFAULT_CATEGORY = 'misc'
 THEME = '../theme'
 DEFAULT_DATE_FORMAT = '%d / %m / %Y'
-DEFAULT_PAGINATION = 8
+DEFAULT_PAGINATION = 5
 
 PLUGINS = [
     'pelican_youtube',

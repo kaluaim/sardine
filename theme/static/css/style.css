@@ -225,11 +225,14 @@ header > .content > h2 {
   .wrapper > main {
     width: auto;
     float: none;
+    margin-top: 1em;
   }
 
   .wrapper > aside {
     width: auto;
     float: none;
+    margin-top: 2em;
+    font-size: 1.2em;
   }
 }
 
