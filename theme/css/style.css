@@ -42,7 +42,7 @@ table {
 
 table, th, td {
   border: 2px solid black;
-  padding: 0.3em;
+  padding: 0.5em;
 }
 
 blockquote {
@@ -59,10 +59,13 @@ blockquote {
 dd {
     display: block;
     margin-left: 40px;
+    font-size: 0.9em;
 }
 
 dt {
     display: block;
+    font-weight: bold;
+    font-style: italic;
 }
 
 pre {
