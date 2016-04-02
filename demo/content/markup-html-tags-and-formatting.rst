@@ -7,9 +7,8 @@ Markup: HTML Tags and Formatting
 :slug: markup-html-tags-and-formatting
 :status: published
 
-Headings
---------
-
+Headings:
+---------
 
 Header one
 ----------
@@ -26,10 +25,10 @@ Header four
 Header five
 ===========
 
+|
 
-
-Blockquotes
------------
+Blockquotes:
+------------
 
 Single line blockquote:
 
@@ -43,49 +42,60 @@ Multi line blockquote with a cite reference:
     I'm actually as proud of the things we haven't done as the things I
     have done. Innovation is saying no to 1,000 things.
 
-Steve Jobs - Apple Worldwide Developers' Conference, 1997
+    *Steve Jobs - Apple Worldwide Developers' Conference, 1997*
 
-Tables
-------
+|
+
+Tables:
+-------
 
 +--------------------------+--------------------------+--------------------------+
 | Employee                 | Salary                   |                          |
 +==========================+==========================+==========================+
-| `John                    | $1                       | Because that's all Steve |
-| Doe <http://example.org/ |                          | Jobs needed for a        |
-| >`                       |                          | salary.                  |
+|  John Doe                | $1                       | Because that's all Steve |
+|                          |                          | Jobs needed for a        |
+|                          |                          | salary.                  |
 +--------------------------+--------------------------+--------------------------+
-| `Jane                    | $100K                    | For all the blogging she |
-| Doe <http://example.org/ |                          | does.                    |
-| >`                       |                          |                          |
+|  Jane                    | $100K                    | For all the blogging she |
+|                          |                          | does.                    |
+|                          |                          |                          |
 +--------------------------+--------------------------+--------------------------+
-| `Fred                    | $100M                    | Pictures are worth a     |
-| Bloggs <http://example.o |                          | thousand words, right?   |
-| rg/>`                    |                          | So Jane x 1,000.         |
+|  Fred                    | $100M                    | Pictures are worth a     |
+|                          |                          | thousand words, right?   |
+|                          |                          | So Jane x 1,000.         |
 +--------------------------+--------------------------+--------------------------+
-| `Jane                    | $100B                    | With hair like that?!    |
-| Bloggs <http://example.o |                          | Enough said...           |
-| rg/>`                    |                          |                          |
+|  Jane                    | $100B                    | With hair like that?!    |
+|                          |                          | Enough said...           |
+|                          |                          |                          |
 +--------------------------+--------------------------+--------------------------+
 
-Definition Lists
-----------------
+|
+
+Definition Lists:
+-----------------
+
+|
 
 Definition List Title
-    Definition list division.
-Startup
-    A startup company or startup is a company or temporary organization
-    designed to search for a repeatable and scalable business model.
-#dowork
-    Coined by Rob Dyrdek and his personal body guard Christopher "Big
-    Black" Boykins, "Do Work" works as a self motivator, to motivating
-    your friends.
-Do It Live
-    I'll let Bill O'Reilly will
-    `explain <https://www.youtube.com/watch?v=O_HyZ5aW76c>`__ this one.
+  Definition list division.
 
-Unordered Lists (Nested)
-------------------------
+Startup
+  A startup company or startup is a company or temporary organization
+  designed to search for a repeatable and scalable business model.
+
+#dowork
+  Coined by Rob Dyrdek and his personal body guard Christopher "Big
+  Black" Boykins, "Do Work" works as a self motivator, to motivating
+  your friends.
+
+Do It Live
+  I'll let Bill O'Reilly will
+  `explain <https://www.youtube.com/watch?v=O_HyZ5aW76c>`__ this one.
+
+|
+
+Unordered Lists (Nested):
+-------------------------
 
 -  List item one
 
@@ -104,8 +114,10 @@ Unordered Lists (Nested)
 -  List item three
 -  List item four
 
-Ordered List (Nested)
----------------------
+|
+
+Ordered List (Nested):
+----------------------
 
 #. List item one
 
@@ -124,8 +136,10 @@ Ordered List (Nested)
 #. List item three
 #. List item four
 
-HTML Tags
----------
+|
+
+HTML Tags:
+----------
 
 These supported tags come from the WordPress.com code
 `FAQ <http://en.support.wordpress.com/code/>`__.
