@@ -141,39 +141,9 @@ Ordered List (Nested):
 HTML Tags:
 ----------
 
-These supported tags come from the WordPress.com code
-`FAQ <http://en.support.wordpress.com/code/>`__.
-
-**Address Tag**
-
-.. raw:: html
-
-   <address>
-
-| 1 Infinite Loop
-|  Cupertino, CA 95014
-|  United States
-
-.. raw:: html
-
-   </address>
-
 **Anchor Tag (aka. Link)**
 
 This is an example of a `link <http://apple.com>`__.
-
-**Abbreviation Tag**
-
-The abbreviation srsly stands for "seriously".
-
-**Acronym Tag (deprecated in HTML5)**
-
-The acronym ftw stands for "for the win".
-
-**Big Tag (deprecated in HTML5)**
-
-These tests are a big deal, but this tag is no longer supported in
-HTML5.
 
 **Cite Tag**
 
@@ -199,8 +169,7 @@ This tag should denote inserted text.
 
 **Keyboard Tag**
 
-This scarcely known tag emulates keyboard text, which is usually styled
-like the ``<code>`` tag.
+``This scarcely known tag emulates keyboard text.``
 
 **Preformatted Tag**
 
@@ -218,7 +187,7 @@ This tag styles large blocks of code.
 
 **Quote Tag**
 
-“Developers, developers, developers...” --Steve Ballmer
+  “Developers, developers, developers...”  *--Steve Ballmer*
 
 **Strike Tag (deprecated in HTML5)**
 
@@ -237,11 +206,6 @@ the "2" down.
 
 Still sticking with science and Isaac Newton's E = MC\ :sup:`2`, which
 should lift the 2 up.
-
-**Teletype Tag (deprecated in HTML5)**
-
-This rarely used tag emulates ``teletype text``, which is usually styled
-like the ``<code>`` tag.
 
 **Variable Tag**
 
