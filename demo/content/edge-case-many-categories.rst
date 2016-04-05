@@ -6,4 +6,4 @@ Edge Case: Many Categories
 :slug: edge-case-many-categories
 :status: published
 
-This post has many categories.
+Pelican only suport one category.
