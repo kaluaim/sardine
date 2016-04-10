@@ -133,6 +133,12 @@ li > ol {
   margin: 0 0 0 1.5em;
 }
 
+/* text align */
+.center {text-align: center;}
+.right {text-align: right;}
+.left {text-align: left;}
+.justify {text-align: justify;}
+
 /* header */
 header {
 
