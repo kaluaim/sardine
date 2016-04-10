@@ -27,7 +27,7 @@
 
   {% if SRDN_DISQUS_SITENAME %}
     {% if article.comment is equalto 'false' %}
-    <h2>Comment are disabled</h2>
+    <p class="comments_disabled">{{ SRDN_COMMENTS_DISABLED_MSG }}</p>
     {% else %}
     <div id="article_comments">
       <div id="disqus_thread"></div>

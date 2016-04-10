@@ -75,6 +75,7 @@ SRDN_EMAIL_URL = '#'
 SRDN_CATEGORY_TEXT = 'Category:'
 SRDN_TAG_TEXT = 'Tag:'
 SRDN_DISQUS_SITENAME = 'sardine'
+SRDN_COMMENTS_DISABLED_MSG = "Comments are disabled"
 
 # HTML footer lines, after each line <br/> will be added.
 SRDN_FOOTER_LINES = (('<span>Copyright kaluaim © 2016</span>'),
