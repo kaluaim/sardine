@@ -20,6 +20,8 @@ him be. It will just be better that way. Trust me.
 Left Align
 ~~~~~~~~~~
 
+.. class:: left
+
 This is a paragraph. It is left aligned. Because of this, it is a bit
 more liberal in it's views. It's favorite color is green. Left align
 tends to be more eco-friendly, but it provides no concrete evidence that
@@ -28,6 +30,8 @@ the equal distribution up to justified alignment.
 
 Center Align
 ~~~~~~~~~~~~
+
+.. class:: center
 
 This is a paragraph. It is center aligned. Center is, but nature, a
 fence sitter. A flip flopper. It has a difficult time making up its
@@ -39,6 +43,8 @@ align does take bribes.
 Right Align
 ~~~~~~~~~~~
 
+.. class:: right
+
 This is a paragraph. It is right aligned. It is a bit more conservative
 in it's views. It's prefers to not be told what to do or how to do it.
 Right align totally owns a slew of guns and loves to head to the range
@@ -47,6 +53,8 @@ shot from at least four or five football fields away. Dead on. So boss.
 
 Justify Align
 ~~~~~~~~~~~~~
+
+.. class:: justify
 
 This is a paragraph. It is justify aligned. It gets really mad when
 people associate it with Justin Timberlake. Typically, justified is
