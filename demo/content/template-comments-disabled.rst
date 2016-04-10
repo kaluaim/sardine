@@ -6,6 +6,7 @@ Template: Comments Disabled
 :tags: comments, template
 :slug: template-comments-disabled
 :status: published
+:comment: false
 
 This post has its comments, pingbacks, and trackbacks disabled.
 

@@ -26,17 +26,21 @@
   </div>
 
   {% if SRDN_DISQUS_SITENAME %}
-  <div id="article_comments">
-    <div id="disqus_thread"></div>
-    <script type="text/javascript">
-        var disqus_identifier = "{{ article.url }}";
-        (function() {
-             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-             dsq.src = 'http://{{ SRDN_DISQUS_SITENAME }}.disqus.com/embed.js';
-             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-         })();
-    </script>
-  </div>
+    {% if article.comment is equalto 'false' %}
+    <h2>Comment are disabled</h2>
+    {% else %}
+    <div id="article_comments">
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+          var disqus_identifier = "{{ article.url }}";
+          (function() {
+               var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+               dsq.src = 'http://{{ SRDN_DISQUS_SITENAME }}.disqus.com/embed.js';
+               (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+           })();
+      </script>
+    </div>
+    {% endif %}
   {% endif %}
 
 </article>
