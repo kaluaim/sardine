@@ -27,7 +27,10 @@
 
   {% if SRDN_DISQUS_SITENAME %}
     {% if article.comment is equalto 'false' %}
-    <p class="comments_disabled">{{ SRDN_COMMENTS_DISABLED_MSG }}</p>
+    <p class="comments_disabled">
+      <i class="fa fa-exclamation-circle"></i> 
+      {{ SRDN_COMMENTS_DISABLED_MSG }}
+    </p>
     {% else %}
     <div id="article_comments">
       <div id="disqus_thread"></div>
