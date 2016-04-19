@@ -1,5 +1,5 @@
-Markup: Title With Special Characters &hearts;
-##############################################
+Markup: Special Characters ♥
+############################
 :date: 2013-01-05 11:00
 :author: themedemos
 :category: Markup
