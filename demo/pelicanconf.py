@@ -57,7 +57,7 @@ SOCIAL = (('twitter', '#', 'fa fa-twitter'),
 # if 'rtl' if will import rtl.css to the site.
 SRDN_SITE_DIRECTION = 'ltr'
 SRDN_SITE_LOGO = 'sardine.png'
-SRDN_TAGLINE = 'just a nother minimal Pelican theme'
+SRDN_TAGLINE = 'just another minimal Pelican theme'
 SRDN_SIDE_TITLE_PAGES = 'Pages'
 SRDN_SIDE_TITLE_MENUITEM = 'Items'
 SRDN_SIDE_TITLE_LINKS = 'Links'
