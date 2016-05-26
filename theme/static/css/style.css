@@ -358,3 +358,24 @@ article > .content {
   position: absolute;
   display: inline-block;
 }
+
+/* social */
+.social {
+
+}
+
+.social > .item {
+  width: 15%;
+  float: left;
+  padding: 1em 0;
+}
+
+@media only screen and (max-width: 880px) {
+  .social {
+    padding: 1em 1em 11em 1em;
+  }
+
+  .social > .item {
+    width: 30%;
+  }
+}

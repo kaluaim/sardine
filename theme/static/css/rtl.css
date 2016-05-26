@@ -48,3 +48,8 @@ blockquote {
     border-left: solid 0;
     border-right: solid 0.2em #20ABEA;
 }
+
+/* social */
+.social > .item {
+  float: right;;
+}
