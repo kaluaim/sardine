@@ -281,6 +281,7 @@ header > .content > h2 {
 /* articale */
 main > article {
   margin: 1em 0 0 0;
+  display: block;
 }
 
 main > .margin {
@@ -311,6 +312,7 @@ article > .header > h2 > a {
 
 article > .content {
   margin-top: 1.5em;
+  display: inline-block;
 }
 
 .article_meta {
@@ -367,15 +369,16 @@ article > .content {
 .social > .item {
   width: 15%;
   float: left;
-  padding: 1em 0;
+  padding: 1em;
 }
 
 @media only screen and (max-width: 880px) {
   .social {
-    padding: 1em 1em 11em 1em;
+    padding: 1em;
   }
 
   .social > .item {
     width: 30%;
+    padding: 1em 0;
   }
 }
