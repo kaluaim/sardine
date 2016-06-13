@@ -47,8 +47,8 @@ Sardine has its own custom identifiers in ``pelicanconf.py`` for easy customizat
 + ``SRDN_CATEGORY_TEXT`` ``SRDN_TAG_TEXT`` the way you want the category and the tag to apper at the end of post, for example: ``'Category:'`` and ``'Tag:'``.
 + ``SRDN_DISQUS_SITENAME`` the site name for Disqus.
 + ``SRDN_COMMENTS_DISABLED_MSG`` text shown if the comments was disabled in a post. you can disable the commient by adding this metadata ``:comment: false``
-+ ``SRDN_FOOTER_LINES`` tuple conteaning HTML footer lines, after each line ``<br/>`` will be added. example: ``(('<span>Copyright kaluaim © 2016</span>'),
-                     ('<span>Powred by <a href="http://blog.getpelican.com/">Pelican</a></span>'),)``
++ ``SRDN_FOOTER_LINES`` tuple conteaning HTML footer lines, after each line ``<br/>`` will be added. example: ``(('<span>Copyright kaluaim © 2016</span>'),('<span>Powred by <a href="http://blog.getpelican.com/">Pelican</a></span>'),)``
+
 
 In addition the theme uses the defaults pelican's identifiers like ``LINKS`` and ``SOCIAL``
 
