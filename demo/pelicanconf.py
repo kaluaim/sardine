@@ -7,7 +7,7 @@ RELATIVE_URLS = True
 
 AUTHOR = u'kaluaim'
 SITENAME = u'Sardine'
-SITEURL = 'http://kaluaim.github.com/sardine'
+SITEURL = 'http://kalua.im/sardine'
 PATH = 'content'
 TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = u'en'
@@ -35,6 +35,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
+# title, URL
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
          ('Jinja2', 'http://jinja.pocoo.org/'),)
@@ -54,8 +55,8 @@ SOCIAL = (('twitter', '#', 'fa fa-twitter', '_blank'),
 #  ____) | (_| | | | (_| | | | | |  __/
 # |_____/ \__,_|_|  \__,_|_|_| |_|\___| Configurations
 
-# If any of the filed is empty it will not be rendared.
-# if 'rtl' if will import rtl.css to the site.
+# If any of the fields are empty it will not be rendared.
+# if 'rtl' then will import rtl.css to the site.
 SRDN_SITE_DIRECTION = 'ltr'
 SRDN_SITE_LOGO = 'sardine.png'
 SRDN_TAGLINE = 'just another minimal Pelican theme'
