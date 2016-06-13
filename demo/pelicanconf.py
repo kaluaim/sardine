@@ -40,9 +40,10 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Jinja2', 'http://jinja.pocoo.org/'),)
 
 # Social widget
-SOCIAL = (('twitter', '#', 'fa fa-twitter'),
-          ('facebook', '#', 'fa fa-facebook'),
-          ('linkedin', '#', 'fa fa-linkedin'),)
+# title, URL, icon, target
+SOCIAL = (('twitter', '#', 'fa fa-twitter', '_blank'),
+          ('facebook', '#', 'fa fa-facebook', '_blank'),
+          ('linkedin', '#', 'fa fa-linkedin', '_blank'),)
 
 
 

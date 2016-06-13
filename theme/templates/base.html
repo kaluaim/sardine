@@ -2,27 +2,33 @@
 <html lang="{{ DEFAULT_LANG }}">
 
 <head>
-  <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/style.css">
+  <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/style.css"/>
 
   {% if SRDN_SITE_DIRECTION is equalto 'rtl' %}
-  <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/rtl.css">
-  <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/kacstone" type="text/css"/>
+  <link href="{{ SITEURL }}/theme/css/rtl.css" rel="stylesheet" type="text/css"/>
+  <link href="https://fontlibrary.org/face/kacstone" rel="stylesheet" type="text/css"/>
   {% endif %}
 
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic" rel="stylesheet" type="text/css"/>
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css"/>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
 
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="{{ AUTHOR }}">
-  <meta name="description" content="Posts and writings by {{ AUTHOR }}">
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width"/>
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no"/>
+  <meta name="author" content="{{ AUTHOR }}"/>
+  <meta name="description" content="Posts and writings by {{ AUTHOR }}"/>
+  <meta property="og:title" content="{{ SITENAME }}"/>
+  <meta property="og:site_name" content="{{ SITENAME }}"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="{{ SITEURL }}"/>
+  <meta property="og:description" content="Posts and writings by {{ AUTHOR }}"/>
 
   {% if FEED_ALL_ATOM %}
-  <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom" />
+  <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom"/>
   {% endif %}
   {% if FEED_ALL_RSS %}
-  <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS" />
+  <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS"/>
   {% endif %}
 
   {% block head %}{% endblock %}
@@ -93,18 +99,18 @@
       <h1>{{ SRDN_SIDE_TITLE_SOCIAL }}</h1>
       {% endif %}
       <ul>
-        {% for name, link, icon in SOCIAL %}
-        <li><a href="{{ link }}" target="_blank"><i class="{{ icon }}"></i> {{ name }}</a></li>
+        {% for name, link, icon, target in SOCIAL %}
+        <li><a href="{{ link }}" target="{{ target }}"><i class="{{ icon }}"></i> {{ name }}</a></li>
         {% endfor %}
       </ul>
       {% endif %}
 
       <ul>
         {% if SRDN_RSS_TITLE %}
-        <li><a href="{{ SRDN_RSS_URL }}" type="application/rss+xml" rel="alternate"><i class="fa fa-rss"></i> {{ SRDN_RSS_TITLE }}</a></li>
+        <li><a href="{{ SRDN_RSS_URL }}" type="application/atom+xml" rel="alternate" target="_blank"><i class="fa fa-rss"></i> {{ SRDN_RSS_TITLE }}</a></li>
         {% endif %}
         {% if SRDN_EMAIL_TITLE %}
-        <li><a href="{{ SRDN_EMAIL_URL }}" type="application/rss+xml" rel="alternate"><i class="fa fa-envelope"></i> {{ SRDN_EMAIL_TITLE }}</a></li>
+        <li><a href="{{ SRDN_EMAIL_URL }}" rel="alternate" target="_blank"><i class="fa fa-envelope"></i> {{ SRDN_EMAIL_TITLE }}</a></li>
         {% endif%}
       </ul>
 

@@ -4,9 +4,9 @@
 
 html, body {
   direction: rtl;
-   font-weight: normal;
-   font-family: "KacstOneRegular", sans-serif;
-   font-style: normal;
+  font-weight: normal;
+  font-family: "KacstOneRegular", sans-serif;
+  font-style: normal;
 }
 
 header > .content > .logo {
@@ -23,7 +23,7 @@ header > .content > h2 {
 }
 
 .wrapper > aside > footer a[lang='en'] {
-    font-size: 0.85em;
+  font-size: 0.85em;
 }
 
 .wrapper > main {
@@ -45,8 +45,8 @@ header > .content > h2 {
 }
 
 blockquote {
-    border-left: solid 0;
-    border-right: solid 0.2em #20ABEA;
+  border-left: solid 0;
+  border-right: solid 0.2em #20ABEA;
 }
 
 /* social */

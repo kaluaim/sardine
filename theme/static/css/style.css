@@ -46,26 +46,26 @@ table, th, td {
 }
 
 blockquote {
-    display: block;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 1em;
-    margin-right: 1em;
-    background: #F1F5F7;
-    border-left: solid 0.2em #20ABEA;
-    padding: 1em;
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  background: #F1F5F7;
+  border-left: solid 0.2em #20ABEA;
+  padding: 1em;
 }
 
 dd {
-    display: block;
-    margin-left: 40px;
-    font-size: 0.9em;
+  display: block;
+  margin-left: 40px;
+  font-size: 0.9em;
 }
 
 dt {
-    display: block;
-    font-weight: bold;
-    font-style: italic;
+  display: block;
+  font-weight: bold;
+  font-style: italic;
 }
 
 pre {
@@ -98,6 +98,7 @@ tt {
   padding-bottom: 0.2em;
   margin: 0;
   font-size: 85%;
+  background-color: #888888;
   background-color: rgba(0,0,0,0.04);
   border-radius: 3px;
   font-family: monospace !important;
@@ -140,10 +141,6 @@ li > ol {
 .justify {text-align: justify;}
 
 /* header */
-header {
-
-}
-
 header > .content {
   width: 90%;
   max-width: 1000px;
@@ -311,7 +308,7 @@ article > .header > h2 > a {
 }
 
 article > .content {
-  margin-top: 1.5em;
+  margin-top: -0.5em;
   display: inline-block;
 }
 
