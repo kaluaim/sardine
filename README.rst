@@ -40,11 +40,11 @@ Sardine has its own custom identifiers in ``pelicanconf.py`` for easy customizat
 + ``SRDN_SITE_DIRECTION`` if ``'rtl'`` then will import ``rtl.css`` to the site
 + ``SRDN_SITE_LOGO`` the name of the site logo inside the ``static/images`` folder, for example: ``'sardine.png'``.
 + ``SRDN_TAGLINE`` tagline under the site name.
-+ ``SRDN_SIDE_TITLE_PAGES``,``SRDN_SIDE_TITLE_PAGES``,``SRDN_SIDE_TITLE_PAGES``,``SRDN_SIDE_TITLE_PAGES`` titles for each section in the side menu.
++ ``SRDN_SIDE_TITLE_PAGES`` ``SRDN_SIDE_TITLE_PAGES`` ``SRDN_SIDE_TITLE_PAGES`` ``SRDN_SIDE_TITLE_PAGES`` titles for each section in the side menu.
 + ``SRDN_SIDE_MSG`` text area above the footer.
-+ ``SRDN_RSS_TITLE``,``SRDN_RSS_URL`` feet title and URL in the side menu.
-+ ``SRDN_EMAIL_TITLE``,``SRDN_EMAIL_URL`` eamil subscription title and URL.
-+ ``SRDN_CATEGORY_TEXT``,``SRDN_TAG_TEXT`` the way you want the category and the tag to apper at the end of post, for example: ``'Category:'`` and ``'Tag:'``.
++ ``SRDN_RSS_TITLE`` ``SRDN_RSS_URL`` feet title and URL in the side menu.
++ ``SRDN_EMAIL_TITLE`` ``SRDN_EMAIL_URL`` eamil subscription title and URL.
++ ``SRDN_CATEGORY_TEXT`` ``SRDN_TAG_TEXT`` the way you want the category and the tag to apper at the end of post, for example: ``'Category:'`` and ``'Tag:'``.
 + ``SRDN_DISQUS_SITENAME`` the site name for Disqus.
 + ``SRDN_COMMENTS_DISABLED_MSG`` text shown if the comments was disabled in a post. you can disable the commient by adding this metadata ``:comment: false``
 + ``SRDN_FOOTER_LINES`` tuple conteaning HTML footer lines, after each line ``<br/>`` will be added. example: ``(('<span>Copyright kaluaim © 2016</span>'),
