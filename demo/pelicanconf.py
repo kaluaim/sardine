@@ -21,7 +21,7 @@ EXTRA_PATH_METADATA = {
 DEFAULT_CATEGORY = 'misc'
 THEME = '../theme'
 DEFAULT_DATE_FORMAT = '%d / %m / %Y'
-DEFAULT_PAGINATION = 80
+DEFAULT_PAGINATION = 6
 
 PLUGINS = [
     'pelican_youtube',
