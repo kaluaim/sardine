@@ -25,10 +25,12 @@
     </p>
   </div>
 
+  {% include "modules/neighbors.html" %}
+
   {% if SRDN_DISQUS_SITENAME %}
     {% if article.comment is equalto 'false' %}
     <p class="comments_disabled">
-      <i class="fa fa-exclamation-circle"></i> 
+      <i class="fa fa-exclamation-circle"></i>
       {{ SRDN_COMMENTS_DISABLED_MSG }}
     </p>
     {% else %}
