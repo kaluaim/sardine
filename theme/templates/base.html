@@ -59,7 +59,6 @@
       <aside>
 
         {% if DISPLAY_PAGES_ON_MENU %}
-        {% if pages %}
         {% if SRDN_SIDE_TITLE_PAGES %}
         <h1>{{ SRDN_SIDE_TITLE_PAGES }}</h1>
         {% endif %}
@@ -67,8 +66,10 @@
           {% for page in pages %}
           <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
           {% endfor %}
+          {% for title, link in SRDN_PAGES %}
+          <li><a href="{{ link }}" target="_blank">{{ title }}</a></li>
+          {% endfor %}
         </ul>
-        {% endif %}
         {% endif %}
 
         {% if MENUITEM %}
