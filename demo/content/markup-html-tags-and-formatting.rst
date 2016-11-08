@@ -7,6 +7,17 @@ Markup: HTML Tags and Formatting
 :slug: markup-html-tags-and-formatting
 :status: published
 
+.. role:: red
+.. role:: blue
+
+Testing colored text :red:`this is red` and :blue:`this is blue`.
+
+
+
+.. raw:: html
+
+    <style> .red {color:red} .blue {color:blue}</style>
+
 Headings:
 ---------
 
