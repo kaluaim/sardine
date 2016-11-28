@@ -10,4 +10,9 @@
     {{ page.content }}
   </div>
 </article>
+
+{% if page.lastupdate %}
+<span class="lastupdate">{{ SRDN_PAGE_LAST_UPDATE_TITLE  }} {{ page.lastupdate }}</span>
+{% endif %}
+
 {% endblock %}
